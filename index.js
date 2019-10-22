@@ -22,12 +22,12 @@ function createFareMultiplier(num){
   if(num === 2) {
     return () =>{}
   } else if(num === 5) {
-    return num * num
+    return fareQuintupler(num)
   }
 }
 
-function fareQuintupler() {
-
+function fareQuintupler(num) {
+  return num * num
 }
 
 function fareDoubler(fare){
