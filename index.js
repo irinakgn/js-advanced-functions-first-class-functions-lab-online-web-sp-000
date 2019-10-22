@@ -8,12 +8,12 @@ function returnFirstTwoDrivers(){
       drivers[0],
       drivers[1]
     ]
-
 }
+
+
 function returnLastTwoDrivers() {
   const drivers = ['Sally','Bob', 'Freddy', 'Claudia']
   return [drivers[2], drivers[3]]
-
 }
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
@@ -21,7 +21,8 @@ const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 function createFareMultiplier(){
 
 }
-function fareDoubler(){
+function fareDoubler(fare){
+  return fare * 2;
 
 }
 
