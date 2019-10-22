@@ -16,11 +16,13 @@ function returnLastTwoDrivers() {
   return [drivers[2], drivers[3]]
 }
 
-
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
 function createFareMultiplier(){
 
 }
+
+
 function fareDoubler(fare){
   return fare * 2;
 
