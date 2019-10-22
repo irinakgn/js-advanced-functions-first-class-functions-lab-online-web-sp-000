@@ -18,7 +18,7 @@ function returnLastTwoDrivers() {
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
-function createFareMultiplier(4){
+function createFareMultiplier(int){
 
 const fareQuintupler = createFareMultiplier(4);
 
