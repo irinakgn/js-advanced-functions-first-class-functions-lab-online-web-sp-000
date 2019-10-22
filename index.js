@@ -32,9 +32,12 @@ function fareTripler(fare){
   return fare * 3;
 
 }
+function fareQuintupler(fare){
+  return fare * 4;
+}
 
 
 function selectDifferentDrivers(drivers, returnLastTwoDrivers){
-  return 
+  return
 
 }
