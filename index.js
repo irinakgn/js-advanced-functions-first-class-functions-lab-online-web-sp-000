@@ -39,5 +39,4 @@ function fareTripler(fare){
 
 function selectDifferentDrivers(drivers, func){
   return func(drivers)
-
 }
