@@ -23,6 +23,9 @@ function createFareMultiplier(){
 
 }
 
+function fareQuintupler() {
+  
+}
 
 function fareDoubler(fare){
   return fare * 2;
