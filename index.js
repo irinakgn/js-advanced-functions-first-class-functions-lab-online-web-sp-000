@@ -32,3 +32,6 @@ function fareTripler(fare){
   return fare * 3;
 
 }
+
+
+function selectDifferentDrivers(drivers, returnFirstTwoDrivers())
